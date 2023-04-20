@@ -2,23 +2,27 @@
     display: inline-block;
     vertical-align: top;
 }
-nav {
-    width: 73%;
-    padding: 1%;
-    background-color: #CF9D9D;
-}
-ul {
-    width: 50%;
-    margin-left: auto;
-}
 .logo {
     width: 23%;
     padding: 1%;
     text-align: center;
 }
+nav {
+    width: 73%;
+    padding: 1%;
+    background-color: #CF9D9D;
+}
+nav ul {
+    width: 30%;
+    margin-left: auto;
+}
+nav li {
+    padding-left: 50px;
+}
 
 .heroImg {
-    height: 600px;
+    height: 865px;
+    width: 500px;
     padding: 25px;
 }
 .content {
@@ -32,9 +36,10 @@ footer {
 footer ul {
     display: inline-block;
     vertical-align: top;
+    padding: 10px;
 }
 footer li {
     display: inline-block;
-    padding-inline: 450px;
+    padding-left: 350px;
 }
 
